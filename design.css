@@ -1,0 +1,64 @@
+.btn_des,
+.back {
+  background-color: #758e4f;
+  color: aliceblue;
+  text-align: center;
+  font-size: medium;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-family: "Aref Ruqaa", serif;
+  font-size: x-large;
+}
+.div2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.div1 {
+  display: block;
+  text-align: center;
+  font-family: "Aref Ruqaa", serif;
+  font-size: x-large;
+}
+.body {
+  justify-content: center;
+  color: #771e2f;
+  background: #86bbd8;
+}
+.para1,
+.para2,
+.elias,
+.hasan,
+.nida {
+  font-family: "Aref Ruqaa", serif;
+  font-size: x-large;
+}
+.div3 {
+  display: block;
+  text-align: center;
+}
+.para2 {
+  color: darkolivegreen;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+.elias,
+.hasan,
+.nida {
+  font-family: "Aref Ruqaa", serif;
+  font-size: x-large;
+  padding: 0 30px;
+  align-content: right;
+}
+.back {
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  font-family: "Aref Ruqaa", serif;
+  font-size: x-large;
+}

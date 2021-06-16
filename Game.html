@@ -14,7 +14,7 @@
         <div class="header">
             <!-- time & score -->
             <div class="tl">Time Left: <span class="time">01:00</span></div>
-            <div class="score"> Score: <span class="currScore">10</span></div>
+            <div class="score"> Score: <span id="currScore" class="currScore"></span></div>
         </div>
         <div class="rank_number">
             <h1>Rank&nbsp;1</h1>
@@ -22,15 +22,16 @@
         <!--Rank Number-->
         <div class="img"><img src="assets/image1.JPG" width="200px" height="300px" alt=""></div>
         <label class="question" id="question">What is this beauty?</label>
+       <label id="correctAns" style="visibility: hidden;"></label>
         <div class="ls">
             <ol class="options">
                 <div class="frow">
-                    <li><button class="button" id="btn1">Hassan Hassouna</button></li>
-                    <li><button class="button" id="btn2">Hassan Hassouna</button></li>
+                    <li><button class="button" onclick="checkans(this)" id="btn1">Hassan Hassouna</button></li>
+                    <li><button class="button" onclick="checkans(this)" id="btn2">Hassan Hassouna</button></li>
                 </div>
                 <div class="srow">
-                    <li> <button class="button" id="btn3">Hassan Hassouna</button></li>
-                    <li> <button class="button" id="btn4">Hassan Hassouna</button></li>
+                    <li> <button class="button" onclick="checkans(this)" id="btn3">Hassan Hassouna</button></li>
+                    <li> <button class="button" onclick="checkans(this)" id="btn4">Hassan Hassouna</button></li>
                 </div>
             </ol>
         <!-- </div> -->

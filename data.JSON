@@ -1,185 +1,194 @@
 {
-    "question1": {
-        "q1": "אני _ שיניים בבוקר ",
-        "a1": "מנקה",
-        "a2": "שוטף",
-        "a3": "מצחצח",
-        "a4": "משמשף"
+    "stage_1": {
+        "question1": {
+            "q1": "אני _ שיניים בבוקר ",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question2": {
+            "q1": "אני _ ידיים במים וסבון",
+            "a1": "מנקה",
+            "a2": "מצחצח",
+            "a3": "שוטף",
+            "a4": "משמשף",
+            "answer": 3
+        },
+        "question3": {
+            "q1": "אני _ חולצה קצרה בקיץ",
+            "a1": "שם",
+            "a2": "לובש",
+            "a3": "a3",
+            "a4": "a4",
+            "answer": 3
+        },
+        "question4": {
+            "q1": "דני _ בים",
+            "a1": "שחה",
+            "a2": "אכל",
+            "a3": "זחל",
+            "a4": "נחה",
+            "answer": 3
+        },
+        "question5": {
+            "q1": "שרון _ תפוח",
+            "a1": "קפצה",
+            "a2": "כתבה",
+            "a3": "אכלה",
+            "a4": "a4",
+            "answer": 3
+        },
+        "question6": {
+            "q1": "רן כתב _ לסבא",
+            "a1": "מכתב",
+            "a2": "גלידה",
+            "a3": "סלט",
+            "a4": "a4",
+            "answer": 3
+        }
     },
-    "question2": {
-        "q1": "אני _ ידיים במים וסבון",
-        "a1": "מנקה",
-        "a2": "מצחצח",
-        "a3": "שוטף",
-        "a4": "משמשף"
+    "stage_2": {
+        "question7": {
+            "image": "/assets/image1.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question8": {
+            "image": "/assets/image2.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question9": {
+            "image": "/assets/image2.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question10": {
+            "image": "/assets/image3.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question11": {
+            "image": "/assets/image4.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question12": {
+            "image": "/assets/image5.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        },
+        "question13": {
+            "image": "/assets/image6.png",
+            "chose": [
+                "מנקה",
+                "שוטף",
+                "מצחצח",
+                "משמשף"
+            ],
+            "answer": 3
+        }
     },
-    "question3": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question4": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question5": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question6": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question7": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question8": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question9": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question10": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question11": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question12": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question13": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question14": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question15": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question16": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question17": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question18": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question19": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question20": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question21": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question22": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question23": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question24": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question25": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
-    },
-    "question26": {
-        "q1": "How are you",
-        "a1": "a1",
-        "a2": "a2",
-        "a3": "a3",
-        "a4": "a4"
+    "stage_3": {
+        "question14": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question15": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question16": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question17": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question18": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question19": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question20": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question21": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question22": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question23": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question24": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question25": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        },
+        "question26": {
+            "images":["","","",""],
+            "ans": ["","","",""],
+            "answer": 3
+        }
     },
     "question27": {
         "q1": "How are you",

@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>امرح وتعلم مع اللغة العبرية</title>
-    <link rel="stylesheet" href="design.css" />
-  </head>
-  <body class="body">
-    <div class="div1">
-      <img
-        src="https://www.bbt-translation-services.com/new-images/speak-hebrew-spanish-268-218.png"
-      />
-      <h1>امرح وتعلم</h1>
-      <h2>مع اللغة العبرية <br />עברית</h2>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Hebrew Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <div class="div2">
-      <button
-        class="btn_des"
-        id="btn_enter"
-        onclick="document.location='Game.html'"
-      >
-        الدخول إلى اللعبة
-      </button>
-      <br />
-      <button
-        class="btn_des"
-        id="btn_ins"
-        onclick="document.location='instruction.html'"
-      >
-        تعليمات اللعبة
-      </button>
-      <br />
-      <button class="btn_des" id="btn_us" onclick="document.location='us.html'">
-        عن المبرمجين
-      </button>
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- time & score -->
+            <div class="tl">Time Left: <span class="time">01:00</span></div>
+            <div class="score"> Score: <span class="currScore">10</span></div>
+        </div>
+        <div class="rank_number">
+            <h1>Rank&nbsp;1</h1>
+        </div>
+        <!--Rank Number-->
+        <div class="img"><img src="assets/image1.JPG" width="200px" height="300px" alt=""></div>
+        <div class="question">What is this beauty?</div>
+        <div class="ls">
+            <ol class="options">
+                <div class="frow">
+                    <li><button class="button">Hassan Hassouna</button></li>
+                    <li><button class="button">Hassan Hassouna</button></li>
+                </div>
+                <div class="srow">
+                    <li> <button class="button">Hassan Hassouna</button></li>
+                    <li> <button class="button">Hassan Hassouna</button></li>
+                </div>
+            </ol>
+        </div>
     </div>
-  </body>
+    <script src="app.js"></script>
+</body>
+
 </html>

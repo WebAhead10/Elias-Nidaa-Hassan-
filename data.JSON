@@ -1,7 +1,7 @@
 {
-    "stage_1": [
+    "stage_1": {
         "question1": {
-            "1": 
+            "1": "אני _ שיניים בבוקר ",
             "chose": [
                 "מנקה",
                 "שוטף",
@@ -52,7 +52,7 @@
             "a4": "a4",
             "answer": 3
         }
-    },]
+    },
     "stage_2": {
         "question7": {
             "image": "/assets/image1.png",

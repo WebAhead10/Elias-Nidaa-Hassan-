@@ -70,8 +70,9 @@ function makeQustion() //start problem
         {
             btnarry[i] = document.getElementById('btn'+i);
             btnarry[i].textContent = questions[glob].chose[i];
+            btnarry[i].style.backgroundColor='#F26419';
         }
-    
+        
 }   
 
 function setImageVisible(id, visible) {
@@ -79,25 +80,34 @@ function setImageVisible(id, visible) {
     img.style.display = (visible ? 'block' : 'none');
 }
 
-function AddScore()
+function AddScore(a)
 {
+  if(a == true)
+  {
     rightansware++;
     ScoreElement.textContent=rightansware;
-    glob++;
+    
+  }
+  else
+  {
+    rightansware--;
+    ScoreElement.textContent=rightansware;
+  }
+  glob++;
 }
 
 //Check button
 function checkans(btnid) {
     if (btnid.id === 'btn' + answer) {
         document.getElementById(btnid.id).style.backgroundColor = 'green';
-        AddScore()
-        makeQustion();
+        AddScore(true)
+        setTimeout(makeQustion, 2000);
     }
     else {
         document.getElementById(btnid.id).style.backgroundColor = 'red';
         document.getElementById('btn'+answer).style.backgroundColor = 'green';
-        AddScore()
-        makeQustion();
+        AddScore(false)
+        setTimeout(makeQustion, 2000);
     }
 }
 
@@ -117,6 +127,8 @@ function startTimer(duration, display) {
 
     if (--timer < 0) {
       timer = duration;
+      AddScore(false);
+      makeQustion();
     }
   }, 1000);
 }
